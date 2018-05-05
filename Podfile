@@ -6,6 +6,8 @@ target 'GifBrowser' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   
+  pod 'SwiftLint', '~> 0.25.0'
+  
   target 'GifBrowserTests' do
     inherit! :search_paths
     pod 'Quick'
